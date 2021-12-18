@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <title>Realtime Filter  Webapp using PoseNet Neural Network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body id="bodyy">
+  <div class="curved">
+  <center>
+  <style>
+    .heading{
+      font-size: 25px !important;
+    }
+    .photo{
+      font-size: 25px !important;
+    }
+  </style>
+  <h3 class="btn btn-danger heading">Mustache Filter! (Realtime)</h3>
+  <br>
+  <br>
+  <button class="btn btn-info photo" onclick="snapshot()"> 📸 </button>
+  <p id="p1">The button above is for taking photo if you didn't understand.</p>
+  <br>
+  <p id="info"><span style="background-color: red; color: white;">INFORMATION - </span>This filter will make it look like you have a moustache. By clickng the photo button, you will download a photo of you with a moustache. This website can cause extreme lag, so be patient!</p>
+<script src="main.js"></script>
+</center>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#403f3d" fill-opacity="1" d="M0,32L30,69.3C60,107,120,181,180,208C240,235,300,213,360,186.7C420,160,480,128,540,112C600,96,660,96,720,117.3C780,139,840,181,900,165.3C960,149,1020,75,1080,74.7C1140,75,1200,149,1260,154.7C1320,160,1380,96,1410,64L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z" style="user-select: auto;"></path>
+</svg>
+</div>
+</body>
+
+</html>
+
+

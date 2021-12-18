@@ -1,0 +1,54 @@
+.photo:hover{
+    animation-name: changebg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-style: none;
+}
+
+@keyframes changebg {
+    0% {background-color: turquoise;}
+    25% {background-color: teal;}
+    50% {background-color: blue;}
+    75% {background-color: mediumaquamarine;}
+    100% {background-color: turquoise;}
+}
+
+canvas{
+    animation-name: Ihavenoidea;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 200 !important;
+}
+
+@keyframes Ihavenoidea {
+    0% {box-shadow: 1px 1px 38px pink;}
+    25% {box-shadow: 1px 1px 38px palevioletred;}
+    50% {box-shadow: 1px 1px 38px purple;}
+    75% {box-shadow: 1px 1px 38px palevioletred;}
+    100% {box-shadow: 1px 1px 38px pink;}
+}
+.curved{
+    background-color: #ff6c03;
+}
+
+.curved svg{
+    display:block;
+}
+.curved_upper{
+    background-color: #403f3d;
+}
+#p1{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+body{
+    background-color: #403f3d;
+}
+#info{
+    color: white;
+    font-weight: bold;
+}
+#info span{
+    font-weight: bolder;
+}
